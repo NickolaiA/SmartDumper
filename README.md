@@ -1,5 +1,7 @@
 # SmartDumper
-This projects has class Dumper which can dump any reference type (int, float, etc) and value type (object, string, etc) in Microsoft .Net (C# and VB.Net).
+This projects has class Dumper which can dump most of (if not all) value types (int, float, etc) and reference types (object, string, List, Dictionary, etc) in Microsoft .Net (C# and VB.Net). The main class is SmartDumper/Dumper.cs.
+
+There are a lot of diferent unit tests which demonstrates how the Dumper works. Look at DumperTest.cs in DumperTest folder.
 
 There are some examples how the Dumper works:
 
