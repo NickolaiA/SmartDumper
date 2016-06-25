@@ -1,5 +1,5 @@
 # SmartDumper
-This projects has class Dumper which can dump most of (if not all) value types (int, float, etc) and reference types (object, string, List, Dictionary, etc) in Microsoft .Net (C# and VB.Net). The main class is SmartDumper/Dumper.cs.
+This projects has class Dumper which can dump most of (if not all) value types (int, float, etc) and reference types (object, string, List, Dictionary, etc) in Microsoft .Net (C# and VB.Net). It even can dump everything from **HttpSessionState** in Asp.Net/MVC project The main class is [SmartDumper/Dumper.cs](https://github.com/NickolaiA/SmartDumper/blob/master/SmartDumper/Dumper.cs).
 
 There are a lot of diferent unit tests which demonstrates how the Dumper works. Look at DumperTest.cs in DumperTest folder.
 
