@@ -23,18 +23,10 @@ namespace SmartSolutions.SmartDumper
         public static StringBuilder Dump(string name, object obj, int indent)
         {
             StringBuilder sb = new StringBuilder();
-
-            try
-            {
-                Dictionary<object, object> processed = new Dictionary<object, object>();
-                Dumper dumper = new Dumper();
-                dumper.objectCounter = 1;
-                dumper.DumpRecursively(name, obj, indent, sb, processed);
-            }
-            catch (Exception ex)
-            {
-                //LogException(ex, sb);
-            }
+            Dictionary<object, object> processed = new Dictionary<object, object>();
+            Dumper dumper = new Dumper();
+            dumper.objectCounter = 1;
+            dumper.DumpRecursively(name, obj, indent, sb, processed);
 
             return sb;
         }
